@@ -61,37 +61,47 @@ Hourly thereafter
 | Variable    | Description                                                                     | Units                | 
 |:------------|:--------------------------------------------------------------------------------|:---------------------|
 |`Group`      |Intervention arm. control = placebo, intervention = mesenchymal stem cells       |                      |
-|`RBC`        |                                                                                 |                      |
-|`Hb`         |                                                                                 |                      |
-|`Hct`        |                                                                                 |                      |
-|`MCV`        |                                                                                 |                      |
-|`MCH`        |                                                                                 |                      |
-|`MCHC`       |                                                                                 |                      |
-|`WBC`        |                                                                                 |                      |
-|`Neut`       |                                                                                 |                      |
-|`Lymph`      |                                                                                 |                      |
-|`Mono`       |                                                                                 |                      |
-|`Eos`        |                                                                                 |                      |
-|`Baso`       |                                                                                 |                      |
-|`PT`         |                                                                                 |                      |
-|`APTT`       |                                                                                 |                      |
-|`APTTRATIO`  |                                                                                 |                      |
-|`Na`         |                                                                                 |                      |
-|`K`          |                                                                                 |                      |
-|`Cl`         |                                                                                 |                      |
-|`Bic`        |                                                                                 |                      |
-|`Glu`        |                                                                                 |                      |
-|`Urea`       |                                                                                 |                      |
-|`Crea`       |                                                                                 |                      |
-|`Ca`         |                                                                                 |                      |
-|`PO`         |                                                                                 |                      |
-|`Prot`       |                                                                                 |                      |
-|`Alb`        |                                                                                 |                      |
-|`Glob`       |                                                                                 |                      |
-|`Bili`       |                                                                                 |                      |
-|`ALP`        |                                                                                 |                      |
-|`AST`        |                                                                                 |                      |
-|`CK`         |                                                                                 |                      |
-|`Mg`         |                                                                                 |                      |
-|`GGT`        |                                                                                 |                      |
-|`Bhb`        |                                                                                 |                      |
+|`RBC`        |Red blood cells                                                                  |x10<sup>12</sup>/L    |
+|`Hb`         |Haemaglobin                                                                      |g/L                   |
+|`Hct`        |Haematocrit fraction                                                             |                      |
+|`MCV`        |Mean corpuscular volume                                                          |fL                    |
+|`MCH`        |Mean corpuscular haemaglobin                                                     |p                     |
+|`MCHC`       |Mean corpuscular haemaglobin concentration                                       |g/L                   |
+|`WBC`        |White blood cell count                                                           |x10<sup>9</sup>/L     |
+|`Neut`       |Neutrophil count                                                                 |x10<sup>9</sup>/L     |
+|`Lymph`      |Lymphocyte count                                                                 |x10<sup>9</sup>/L     |
+|`Mono`       |Monocyte count                                                                   |x10<sup>9</sup>/L     |
+|`Eos`        |Eosinophil count                                                                 |x10<sup>9</sup>/L     |
+|`Baso`       |Basophil count                                                                   |x10<sup>9</sup>/L     |
+|`PT`         |Prothrombin time                                                                 |s                     |
+|`APTT`       |Activated partial thromboplastin time                                            |s                     |
+|`APTTRATIO`  |Activated partial thromboplastin time ratio                                      |                      |
+|`Na`         |Sodium                                                                           |mmol/L                |
+|`K`          |Potassium                                                                        |mmol/L                |
+|`Cl`         |Chloride                                                                         |mmol/L                |
+|`Bic`        |Venous bicarbonate                                                               |mmol/L                |
+|`Glu`        |Glucose                                                                          |mmol/L                |
+|`Urea`       |Urea                                                                             |mmol/L                |
+|`Crea`       |Creatinine                                                                       |mmol/L                |
+|`Ca`         |Calcium                                                                          |mmol/L                |
+|`PO`         |Phosphate                                                                        |mmol/L                |
+|`Prot`       |Total protein                                                                    |g/L                   |
+|`Alb`        |Albumin                                                                          |g/L                   |
+|`Glob`       |Globulin                                                                         |g/L                   |
+|`Bili`       |Bilirubin                                                                        |umol/L                |
+|`ALP`        |Alkaline phosphatase                                                             |IU/L                  |
+|`AST`        |Aspartate aminotransferase                                                       |IU/L                  |
+|`CK`         |Creatinine kinase                                                                |IU/L                  |
+|`Mg`         |Magnesium                                                                        |mmol/L                |
+|`GGT`        |Gamma glutamyl transferase                                                       |IU/L                  |
+|`Bhb`        |Beta hydroxybutyrate                                                             |mmol/L                |
+
+### CELTIC_cytokine_data.csv
+
+| Variable    | Description                                                                     | Units                | 
+|:------------|:--------------------------------------------------------------------------------|:---------------------|
+|`Group`      |Intervention arm. control = placebo, intervention = mesenchymal stem cells       |                      |
+|`IL6`        |Interleukin-6 concentration, plasma or broncholaveolar lavage                    |pg/mL                 |
+|`IL8`        |Interleukin-8 concentration, plasma or broncholaveolar lavage                    |pg/mL                 |
+|`IL1B`       |Interleukin-1 beta concentration, plasma or broncholaveolar lavage               |pg/mL                 |
+|`IL10`       |Interleukin-10 concentration, plasma or broncholaveolar lavage                   |pg/mL                 |
