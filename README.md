@@ -29,7 +29,7 @@ Hourly thereafter
 |`Ppeak`      |Peak airway pressure                                                             |cmH<sub>2</sub>O.  |
 |`Pplat`      |Plateau airway pressure                                                          |cmH<sub>2</sub>O.  |
 |`Cstat`      |Static lung compliance                                                           |mL/cmH<sub>2</sub>O|
-|`dP`         |Driving pressure                                                                 |cmH<sub>2</sub>O.  |
+|`dP`         |Driving pressure                                                                 |cmH<sub>2</sub>O   |
 |`pH`         |pH                                                                               |                   |
 |`PaO2`       |Arterial partial pressure of oxygen                                              |mmHg               |  
 |`PaCO2`      |Arterial partial pressure of carbon dioxide                                      |mmHg               | 
